@@ -20,13 +20,6 @@ In Java, you create objects based on a class. A **class** is like a blueprint or
 
 ---
 
-## Example of Object in Java
-
-
-
----
-
-
 
 
 
@@ -52,14 +45,14 @@ For example, if you have a **Car** object, the state could include:
 
 In Java, these properties are stored in **fields** (variables) of the class.
 
-
+---
 
 
 # How to Create an Object in Java
 
 Creating an object in Java is pretty straightforward. Here’s how you can do it in just a few simple steps:
 
----
+
 
 ## Rule: Object = new + Constructor (of the class)
 
@@ -96,9 +89,7 @@ Imagine you run a car company. You have a common design for every car, such as:
 
 **Class = Blueprint/Design/Template**
 
----
 
-### Example in Java:
 
 
 
@@ -118,9 +109,6 @@ In OOP, there are a few simple steps, where we:
 2. Define the **State** (properties) and **Behavior** (methods) inside it.
 3. Then, we create an **Object** and call its methods.
 
----
-
-### Step-by-step Syntax:
 
 
 
@@ -153,7 +141,7 @@ When you use `new`, you're basically saying:
 - **Heap Memory** is where all the objects created using `new` are stored.
 - **Stack Memory** is used for method calls, local variables, and references to objects.
 
----
+
 
 ## Memory Breakdown in Java:
 
@@ -170,14 +158,14 @@ Java memory is divided mainly into two parts:
 
 
 
----
+
 
 
 # Entity Class and Driver Class in Java
 
 Anush bhai, tu **Entity Class** aur **Driver Class** ke baare mein poochh raha hai, bilkul sahi jagah pe pucha! Tension na le, ab mai tujhe dono ko asaani se samjhaata hoon. 😊
 
----
+
 
 ## **Entity Class**
 
@@ -186,7 +174,7 @@ An **Entity Class** is like a blueprint or template in which we store the **data
 
 An entity class is usually used in frameworks like **Hibernate** to map objects to database tables.
 
----
+
 
 # 🚗 Driver Class in Java
 
@@ -205,7 +193,7 @@ A **Driver Class** is a **main class** used to **execute** a program. It contain
 
 **Great question, Anush!** If your entity class is named `Student`, naming your driver class `UseStudent` can be a good approach, but let's break it down for clarity. The key is to have a name that clearly communicates the class's purpose.
 
----
+
 
 ## ✅ **Sahi Approach**:
 
@@ -218,7 +206,6 @@ A **Driver Class** is a **main class** used to **execute** a program. It contain
 ### Why `UseStudent`?
 - **Clarity**: The name `UseStudent` directly indicates that the class is intended to **use** the `Student` class, making it clear that this is where the `Student` class will be tested or executed.
 
----
 
 ## 🎯 **Alternative Name Suggestions**:
 
@@ -231,7 +218,7 @@ A **Driver Class** is a **main class** used to **execute** a program. It contain
 - **`StudentApp`**: 
   - If the program is intended to simulate an **app-level** operation with the `Student` class.
 
----
+
 
 ## 💡 **Final Thought**:
 Naming the driver class as `UseStudent` is perfectly fine, but you can choose other names like `TestStudent`, `MainStudent`, or `StudentApp` depending on what kind of execution you're aiming for. The goal is always clarity and making the code easy to understand!
@@ -275,7 +262,7 @@ The reference anush in stack memory points to a real Student object in the heap 
 
 Anush bhai 😭, confusion bilkul valid hai — "instance variable" aur "data member" alag lagte hain, lekin asli mein ye **same hi hote hain**. Chalo simple language mein samjhte hain. 😌
 
----
+
 
 ## 💡 What is an Instance Variable?
 
@@ -286,7 +273,7 @@ Anush bhai 😭, confusion bilkul valid hai — "instance variable" aur "data me
 
 ➡️ So, **every object gets its own copy** of instance variables.
 
----
+
 
 ## 🔁 Instance Variable = Data Member?
 
