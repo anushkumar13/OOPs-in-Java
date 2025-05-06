@@ -22,17 +22,7 @@ In Java, you create objects based on a class. A **class** is like a blueprint or
 
 ## Example of Object in Java
 
-Let’s look at a simple example:
 
-```java
-class Car {
-  int speed = 100; // property
-  String color = "Red"; // property
-
-  void drive() { // method
-    System.out.println("Car is driving...");
-  }
-}
 
 ---
 
@@ -40,7 +30,7 @@ class Car {
 
 
 
-# Components of an Object in Java
+## Components of an Object in Java
 
 In Object-Oriented Programming (OOPs), an object is made up of three main components:
 
@@ -62,17 +52,6 @@ For example, if you have a **Car** object, the state could include:
 
 In Java, these properties are stored in **fields** (variables) of the class.
 
-### Example:
-
-```java
-class Car {
-  int speed = 80;       // state
-  String color = "Red"; // state
-}
-
-
----
-
 
 
 
@@ -89,17 +68,6 @@ Creating an object in Java is pretty straightforward. Here’s how you can do it
 1. **Create a Class (Blueprint)**
    Before you can create an object, you need a class. A class is like a blueprint that defines the structure of your object.
 
-   ```java
-   class Car {
-     int speed = 100;  // Property of the Car class
-
-     void drive() {    // Method (Behavior) of the Car class
-       System.out.println("Car is driving");
-     }
-   }
-
-
-
 
 ---
 
@@ -112,12 +80,14 @@ A class in Java is like a blueprint or design for creating objects. It defines t
 ---
 
 ## Simple Definition:
+
 A **class** is a template or blueprint that defines:
 
 - **What data the object will have** (state/properties)
 - **What actions the object can perform** (methods/behavior)
 
 ### Real-Life Analogy:
+
 Imagine you run a car company. You have a common design for every car, such as:
 
 - **Speed**
@@ -129,23 +99,6 @@ Imagine you run a car company. You have a common design for every car, such as:
 ---
 
 ### Example in Java:
-
-```java
-class Car {
-  // State (Properties)
-  int speed;
-  String color;
-
-  // Behavior (Methods)
-  void drive() {
-    System.out.println("Car is driving...");
-  }
-
-  void brake() {
-    System.out.println("Car is stopping...");
-  }
-}
-
 
 
 
@@ -168,32 +121,6 @@ In OOP, there are a few simple steps, where we:
 ---
 
 ### Step-by-step Syntax:
-
-```java
-// Step 1: Create a class (this is the blueprint)
-class ClassName {
-    
-    // Step 2: Define the state (variables/properties)
-    datatype variableName;
-    
-    // Step 3: Define the behavior (methods/functions)
-    returnType methodName() {
-        // method body
-    }
-}
-
-// Step 4: The main class where the object is created
-public class Main {
-    public static void main(String[] args) {
-        
-        // Step 5: Create an object
-        ClassName objName = new ClassName();
-        
-        // Step 6: Use the object’s method/property
-        objName.methodName();
-        System.out.println(objName.variableName);
-    }
-}
 
 
 
@@ -218,18 +145,6 @@ When you use `new`, you're basically saying:
 
 ---
 
-## Example in Java:
-
-```java
-Car myCar = new Car();
-
-
-
-
----
-
-
-
 # Do Objects Get Created in Heap Memory in Java? 
 
 
@@ -250,20 +165,6 @@ Java memory is divided mainly into two parts:
 | **Heap**    | Actual objects and their data              |
 
 ---
-
-### Example in Java:
-
-```java
-class Car {
-    int speed = 100;
-}
-
-public class Main {
-    public static void main(String[] args) {
-        Car myCar = new Car();
-    }
-}
-
 
 
 
@@ -287,55 +188,10 @@ An entity class is usually used in frameworks like **Hibernate** to map objects 
 
 ---
 
-### **Syntax of Entity Class:**
-```java
-public class Car {
-    // Private attributes (Encapsulation)
-    private String color;
-    private int speed;
-
-    // Getter and Setter methods to access and modify private attributes
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public int getSpeed() {
-        return speed;
-    }
-
-    public void setSpeed(int speed) {
-        this.speed = speed;
-    }
-}
-
----
-
 # 🚗 Driver Class in Java
 
 A **Driver Class** is a **main class** used to **execute** a program. It contains the `main()` method, which is the entry point to start the execution. In this class, we create objects of **Entity Classes** and test them.
 
----
-
-## 🧑‍💻 **Syntax of Driver Class:**
-```java
-public class Main {
-    public static void main(String[] args) {
-        // Creating an object of the Entity class
-        Car myCar = new Car();
-        
-        // Setting values using setter methods
-        myCar.setColor("Red");
-        myCar.setSpeed(120);
-
-        // Getting values using getter methods
-        System.out.println("Car Color: " + myCar.getColor());
-        System.out.println("Car Speed: " + myCar.getSpeed());
-    }
-}
 
 
 
@@ -380,71 +236,6 @@ public class Main {
 ## 💡 **Final Thought**:
 Naming the driver class as `UseStudent` is perfectly fine, but you can choose other names like `TestStudent`, `MainStudent`, or `StudentApp` depending on what kind of execution you're aiming for. The goal is always clarity and making the code easy to understand!
 
----
-
-
-
-## Example: Entity and Driver Class
-
-### Entity Class (Student)
-
-```java
-// Entity class (Student)
-public class Student {
-    private String name;
-    private int age;
-    private double marks;
-
-    // Getter and setter methods
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public double getMarks() {
-        return marks;
-    }
-
-    public void setMarks(double marks) {
-        this.marks = marks;
-    }
-}
-
-
----
-
-## Driver Class (UseStudent)
-
-```java
-// Driver class (UseStudent)
-public class UseStudent {
-    public static void main(String[] args) {
-        // Creating Student object
-        Student student1 = new Student();
-        
-        // Setting values using setter methods
-        student1.setName("Anush");
-        student1.setAge(20);
-        student1.setMarks(85.5);
-        
-        // Getting values using getter methods
-        System.out.println("Name: " + student1.getName());
-        System.out.println("Age: " + student1.getAge());
-        System.out.println("Marks: " + student1.getMarks());
-    }
-}
-
 
 ---
 
@@ -454,9 +245,6 @@ public class UseStudent {
 
 In Java, creating an object is typically done in two steps:
 
-```java
-Student anush;           // Step 1: Declaration
-anush = new Student();   // Step 2: Object creation and assignment
 
 Step 1: Student anush;
 Student is the name of the class. It tells the compiler that anush is a reference to an object of type Student.
@@ -510,16 +298,9 @@ These are just **two different names** for the same thing.
 
 ---
 
-## 🔥 Java Example
 
-```java
-public class Student {
-    // 👇 These are instance variables (aka data members)
-    String name;
-    int age;
-}
 
-👇 Creating Objects
+## 👇 Creating Objects
 
 Student s1 = new Student();
 Student s2 = new Student();
@@ -548,7 +329,7 @@ Stored in heap memory (because part of the object)
 
 ---
 
-Summary
+## Summary
 Instance variables are variables that are declared in a class but outside any method.
 Data members is just another name people use for them.
 Both refer to the same thing — the variables tied to an object’s state.
