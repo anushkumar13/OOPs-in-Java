@@ -1,4 +1,4 @@
-# 🎯 Object-Oriented Programming (OOPs) in Java
+#  Object-Oriented Programming (OOPs) in Java
 
 **Object-Oriented Programming (OOPs)** is a programming style that models real-life entities as **objects** in software. It helps us organize code into **classes** and **objects**, making code more **manageable**, **scalable**, and **maintainable**.
 
@@ -30,7 +30,7 @@ Encapsulation means **wrapping data (attributes)** and **code (methods)** togeth
 - Only exposes **what’s necessary** using **getters and setters**.
 - Helps in **data security** and **code organization**.
 
-🔒 Think of a **capsule** – you can see the outer cover but not the ingredients inside.
+ Think of a **capsule** – you can see the outer cover but not the ingredients inside.
 
 ---
 
@@ -42,7 +42,7 @@ Inheritance allows one class (child class) to **inherit properties and methods**
 - Helps in building a **hierarchy of classes**
 - Enables us to create specialized classes based on general ones
 
-🧬 Like a **child inheriting traits** from parents.
+ Like a **child inheriting traits** from parents.
 
 ---
 
@@ -53,7 +53,7 @@ Polymorphism means "**many forms**". It allows the **same method name** to behav
 - Achieved using **method overloading** and **method overriding**
 - Increases **code flexibility** and **readability**
 
-🎭 Like a person playing different roles in different situations.
+ Like a person playing different roles in different situations.
 
 ---
 
