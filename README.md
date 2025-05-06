@@ -1,4 +1,4 @@
-# 🚀 Object-Oriented Programming in Java
+#  Object-Oriented Programming in Java
 
 This repository contains beginner-friendly and well-structured documentation and code examples for all the major **Object-Oriented Programming (OOP)** concepts in **Java**.
 
@@ -6,7 +6,7 @@ Each topic is explained in simple English, with clearly commented Java code to h
 
 ---
 
-## 📘 Topics Covered
+##  Topics Covered
 
 1. [Class and Object](./01_Class_and_Object/ClassExplanation.md)
 2. [Constructor](./02_Constructor/ConstructorExplanation.md)
@@ -18,15 +18,15 @@ Each topic is explained in simple English, with clearly commented Java code to h
 
 ---
 
-## 🛠️ What’s Inside
+##  What’s Inside
 
-- 📄 **Concept Explanations** – Each topic includes a detailed explanation in simple English, using real-life analogies whenever possible.
-- 🧑‍💻 **Java Code Examples** – Every concept is supported with practical `.java` files.
-- 💬 **Clear Comments** – All code examples include beginner-friendly comments to explain every step in Hinglish (for better understanding).
+-  **Concept Explanations** – Each topic includes a detailed explanation in simple English, using real-life analogies whenever possible.
+-  **Java Code Examples** – Every concept is supported with practical `.java` files.
+-  **Clear Comments** – All code examples include beginner-friendly comments to explain every step in Hinglish (for better understanding).
 
 ---
 
-## ✅ How to Use This Repo
+##  How to Use This Repo
 
 1. Navigate to any topic folder.
 2. Start with the `*.md` file to understand the concept.
@@ -35,7 +35,7 @@ Each topic is explained in simple English, with clearly commented Java code to h
 
 ---
 
-## 📌 Why I Made This
+##  Why I Made This
 
 As a student learning Java, I wanted to document my journey and create a resource that others like me can also benefit from.  
 This repo is written in a style that beginners can easily follow and learn from.
@@ -53,7 +53,7 @@ Feel free to fork this repo and open a pull request! ✨
 
 ---
 
-## 📬 Contact
+##  Contact
 
 If you have any questions, feedback, or collaboration ideas:
 
