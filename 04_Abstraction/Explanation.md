@@ -1,4 +1,4 @@
-## 💡 What is Abstraction?
+##  What is Abstraction?
 
 Abstraction means showing only the important things and hiding the rest. It focuses on exposing only the essential details and hiding the complex details.
 
@@ -13,7 +13,7 @@ Imagine you’re driving a car. When you drive, you don’t need to understand t
 
 You don’t need to know how the engine works or how all the parts connect. You only need to know the parts that help you drive the car. This is an example of **abstraction** — the internal workings of the car are hidden, and only the necessary controls are exposed for you to use.
 
-### 🧑‍💻 Abstraction in Java:
+###  Abstraction in Java:
 
 1. **Abstract Class:**
    An abstract class is a class that defines some common functionality, but leaves some methods undefined. This class is incomplete and is used as a blueprint for subclasses. The subclasses are required to implement the missing methods to complete the functionality.
@@ -23,7 +23,7 @@ You don’t need to know how the engine works or how all the parts connect. You 
 
 ---
 
-## ✨ Benefits of Abstraction:
+##  Benefits of Abstraction:
 
 ### 1. Hiding Complexity:
 Abstraction allows you to hide complex details. For example, the engine of the car is abstracted for you. You don’t need to worry about how it works, just how to drive the car.
@@ -46,7 +46,7 @@ Imagine you have a car. The engine, transmission, and other mechanical parts of 
 
 While you have control over the car, you don’t need to directly interact with the engine or braking system. You need high-level functions like start, stop, and drive. The implementation details are hidden, and only the necessary functions are exposed to you.
 
-### 🚗 Encapsulation Explanation:
+###  Encapsulation Explanation:
 1. **Encapsulation** means hiding the internal working details of the car (like the engine mechanism) and controlling them through methods.
    
 2. **Private Data Members (Car’s Internal Parts):**
@@ -73,7 +73,7 @@ While you have control over the car, you don’t need to directly interact with 
 
 In this way, **Encapsulation** hides the internal details of the car, and **Abstraction** ensures that you interact with only the essential high-level functions, making it easier and safer for you to drive the car.
 
-## 🧠 Benefits of This Approach:
+##  Benefits of This Approach:
 
 ### 1. **Hiding Complexity:**
    In this approach, the internal workings of the car (like the engine, fuel level, and brake system) are abstracted from you. You only interact with the essential control functions like `start()`, `stop()`, and `drive()`, which simplifies your experience and hides the complexity of the car's mechanics.
@@ -84,7 +84,7 @@ In this way, **Encapsulation** hides the internal details of the car, and **Abst
 ### 3. **Maintainability:**
    If the mechanism to start the car's engine changes in the future, you only need to update the `start()` method. The rest of the code remains unaffected, making the car's system easier to maintain and modify without affecting the overall functionality.
 
-## 🔑 Final Thought:
+##  Final Thought:
    - **Encapsulation** helps in hiding internal details and providing controlled access to the car's functionality.
    - **Abstraction** shows you the high-level functions you need to use, without requiring you to understand the complexity behind them, making the car easy to operate.
 
@@ -92,7 +92,7 @@ Together, encapsulation and abstraction make the car easier to use, maintain, an
 
 ---
 
-## 🚗 Core Differences Between Encapsulation and Abstraction
+##  Core Differences Between Encapsulation and Abstraction
 
 ### 1. **Definition:**
 

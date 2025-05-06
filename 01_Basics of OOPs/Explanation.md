@@ -55,4 +55,4 @@ Abstraction is the concept of hiding the complex implementation details and expo
 
 ---
 
-This explanation summarizes the key ideas and advantages of Object-Oriented Programming in a concise manner, making it easy to understand for both beginners and experienced developers.
+

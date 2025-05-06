@@ -1,10 +1,10 @@
-# 🔒 Encapsulation in Java
+#  Encapsulation in Java
 
-## 💡 What is Encapsulation?
+##  What is Encapsulation?
 
 Encapsulation means **wrapping data and code together** in a single unit and **restricting direct access** to some of the object’s components.
 
-### 📦 Simple Definition:
+###  Simple Definition:
 
 > "Encapsulation = Data (variables) + Code (methods) wrapped inside a class, with restricted access to data."
 
@@ -12,7 +12,7 @@ Instead of accessing data directly, users should interact with it **only through
 
 ---
 
-## 🧠 Real-Life Example
+##  Real-Life Example
 
 Think of a **medicine capsule**:
 
@@ -28,9 +28,9 @@ Think of a **medicine capsule**:
 
 ---
 
-## 🧑‍💻 How to Achieve Encapsulation in Java?
+##  How to Achieve Encapsulation in Java?
 
-### ✅ 3 Simple Steps:
+###  3 Simple Steps:
 
 1. **Make variables private**
    - So they can’t be accessed directly from outside the class.
@@ -44,13 +44,13 @@ Think of a **medicine capsule**:
 ---
 
 ## Benefits of Encapsulation
-🔐 Data Security: Sensitive data is protected from unauthorized access.
+ Data Security: Sensitive data is protected from unauthorized access.
 
-🎯 Control: You can control how your variables are accessed or updated.
+ Control: You can control how your variables are accessed or updated.
 
-🧼 Cleaner Code: Promotes modular, readable, and maintainable code.
+ Cleaner Code: Promotes modular, readable, and maintainable code.
 
-🚫 Avoid Invalid Data: Add validation in setters to prevent wrong data.
+ Avoid Invalid Data: Add validation in setters to prevent wrong data.
 
 ---
 

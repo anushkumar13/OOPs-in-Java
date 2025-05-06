@@ -1,4 +1,4 @@
-## 🚗 What is a Constructor?
+##  What is a Constructor?
 
 ### Definition:
 A constructor is a special method that is automatically called when an object of a class is created.
@@ -25,7 +25,7 @@ The primary task of a constructor is to initialize the object's variables.
 
 ---
 
-## 🚗 Types of Constructors:
+##  Types of Constructors:
 
 ### Default Constructor:
 When you don't write a constructor, Java automatically creates a default constructor. It has no parameters and assigns default values to the object's instance variables.
@@ -35,7 +35,7 @@ In this type, you pass parameters to the constructor to set specific values for 
 
 ---
 
-## 🧑‍💻 Role of Constructors in Life:
+##  Role of Constructors in Life:
 
 ### Initialization:
 When you create an object, the constructor automatically initializes the object's variables. You don't need to manually set them.
@@ -45,7 +45,7 @@ You can create multiple constructors with different parameters (this is known as
 
 ---
 
-## 🧠 Summary:
+##  Summary:
 A constructor is a special method that is automatically called when an object is created and is responsible for initializing the object.
 
 Its name must be the same as the class name, and it has no return type.
@@ -54,7 +54,7 @@ A Default Constructor is parameterless, while a Parameterized Constructor initia
 
 ---
 
-## 🚗 What is a Default Constructor?
+##  What is a Default Constructor?
 
 ### Definition:
 A default constructor is a constructor that is automatically created if you don't explicitly write a constructor in your class.
