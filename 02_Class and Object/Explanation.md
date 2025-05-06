@@ -328,8 +328,3 @@ Created when you write: new Student()
 Stored in heap memory (because part of the object)
 
 ---
-
-## Summary
-Instance variables are variables that are declared in a class but outside any method.
-Data members is just another name people use for them.
-Both refer to the same thing — the variables tied to an object’s state.
