@@ -34,7 +34,7 @@ class Car {
   }
 }
 
-
+---
 
 
 
@@ -71,7 +71,7 @@ class Car {
 }
 
 
-
+---
 
 
 
@@ -101,7 +101,7 @@ Creating an object in Java is pretty straightforward. Here’s how you can do it
 
 
 
-
+---
 
 
 
@@ -126,6 +126,8 @@ Imagine you run a car company. You have a common design for every car, such as:
 
 **Class = Blueprint/Design/Template**
 
+---
+
 ### Example in Java:
 
 ```java
@@ -147,7 +149,7 @@ class Car {
 
 
 
-
+---
 
 
 # Syntax of OOP in Java
@@ -195,7 +197,7 @@ public class Main {
 
 
 
-
+---
 
 # What Happens When You Use `new` in Java? 😭😭
 
@@ -224,7 +226,7 @@ Car myCar = new Car();
 
 
 
-
+---
 
 
 
@@ -267,10 +269,10 @@ public class Main {
 
 
 
+---
 
 
-
-Y# Entity Class and Driver Class in Java
+# Entity Class and Driver Class in Java
 
 Anush bhai, tu **Entity Class** aur **Driver Class** ke baare mein poochh raha hai, bilkul sahi jagah pe pucha! Tension na le, ab mai tujhe dono ko asaani se samjhaata hoon. 😊
 
@@ -310,6 +312,8 @@ public class Car {
     }
 }
 
+---
+
 # 🚗 Driver Class in Java
 
 A **Driver Class** is a **main class** used to **execute** a program. It contains the `main()` method, which is the entry point to start the execution. In this class, we create objects of **Entity Classes** and test them.
@@ -337,7 +341,7 @@ public class Main {
 
 
 
-
+---
 
 
 
@@ -417,6 +421,9 @@ public class Student {
     }
 }
 
+
+---
+
 ## Driver Class (UseStudent)
 
 ```java
@@ -439,9 +446,7 @@ public class UseStudent {
 }
 
 
-
-
-
+---
 
 
 
@@ -474,7 +479,7 @@ The reference anush in stack memory points to a real Student object in the heap 
 
 
 
-
+---
 
 
 
@@ -515,13 +520,11 @@ public class Student {
 }
 
 👇 Creating Objects
-java
-Copy
-Edit
+
 Student s1 = new Student();
 Student s2 = new Student();
-s1 has its own name and age
 
+s1 has its own name and age
 s2 has its own name and age
 
 ➡️ Means: Each object maintains its own separate copy of these variables.
@@ -542,6 +545,8 @@ They are not static, so they are tied to an object.
 Created when you write: new Student()
 
 Stored in heap memory (because part of the object)
+
+---
 
 Summary
 Instance variables are variables that are declared in a class but outside any method.
