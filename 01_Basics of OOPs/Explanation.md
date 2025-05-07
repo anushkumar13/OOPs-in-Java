@@ -20,7 +20,6 @@ This approach helps us write code that mirrors the **real world**, making it mor
 
 OOPs is built upon **four fundamental principles** that guide how we structure and use our classes and objects:
 
----
 
 ### 1️⃣ Encapsulation
 
