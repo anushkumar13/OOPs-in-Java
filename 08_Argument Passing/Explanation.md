@@ -112,7 +112,7 @@ In *pass by value*, Java creates a new copy of the value and sends that to the m
 
 ---
 
-## 2️⃣ Pass by Reference (Conceptual Understanding)
+## 2. Pass by Reference (Conceptual Understanding)
 
 > ⚠️ **Note:** Java technically **does not support pass by reference** — everything in Java is **pass by value**. However, when you pass an object to a method, you’re actually passing the **reference (memory address) of that object by value**. This leads to behavior that *resembles* pass by reference.
 
