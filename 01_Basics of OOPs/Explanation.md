@@ -64,36 +64,36 @@ Abstraction is the process of **hiding complex implementation** and showing only
 
 ---
 
-##  Advantages of OOPs
+## Advantages of OOPs
 
-#  1. Code Reusability
+### 1. Code Reusability
 
-- Use **Inheritance** to reuse fields and methods from existing classes.
+- Use Inheritance to reuse fields and methods from existing classes.
 - Avoid writing duplicate code.
 
-##  2. Easy to Manage & Modify
+### 2. Easy to Manage & Modify
 
-- Code is organized into objects, making it easier to **locate and update** specific features.
+- Code is organized into objects, making it easier to locate and update specific features.
 
-##  3. Data Hiding (Encapsulation)
+### 3. Data Hiding (Encapsulation)
 
-- Internal data is kept **private**
-- Can only be accessed or modified via **public methods**
+- Internal data is kept private
+- Can only be accessed or modified via public methods
 
-##  4. Real-World Modeling
+### 4. Real-World Modeling
 
-- You can represent real-world things like `Car`, `Employee`, `BankAccount` using Java classes.
-- Makes the software **easier to understand** and **relatable**.
+- You can represent real-world things like Car, Employee, BankAccount using Java classes.
+- Makes the software easier to understand and relatable.
 
-##  5. Polymorphism = Flexibility
+### 5. Polymorphism = Flexibility
 
-- Same method name can be used for **different tasks**
-- Makes code **cleaner**, more **dynamic**, and **maintainable**
+- Same method name can be used for different tasks
+- Makes code cleaner, more dynamic, and maintainable
 
-##  6. Scalability
+### 6. Scalability
 
-- Easier to **add new features** or modules without affecting existing code.
-- Useful for building **large applications**.
+- Easier to add new features or modules without affecting existing code.
+- Useful for building large applications.
 
 ---
 
