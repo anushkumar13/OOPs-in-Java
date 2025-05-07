@@ -4,25 +4,25 @@ The concept of an **argument** is very simple — just imagine it as a value you
 
 ---
 
-### 💡 Simple Definition:
+###  Simple Definition:
 An **argument** is a value that you provide to a method or function when you call it.  
 It acts as **input** for the method to work with.
 
 ---
 
-### 🧩 Breakdown:
+###  Breakdown:
 - Inside a method declaration, the variables listed are called **parameters**.
 - When you actually call the method and supply real values, those values are called **arguments**.
 
 ---
 
-### 🎯 Real-Life Analogy:
+###  Real-Life Analogy:
 Just like when you ask someone, “Tell me your name,” you expect them to give you a value — their name.  
 Similarly, when a method asks for input, we give it a value — that value is the **argument**.
 
 ---
 
-### 🔄 Summary:
+###  Summary:
 - **Parameter** = Placeholder inside the method definition.
 - **Argument** = Actual value passed during the method call.
 
@@ -30,25 +30,25 @@ This helps methods function dynamically based on the input provided to them.
 
 ---
 
-## 🔄 Difference Between Parameter & Argument
+##  Difference Between Parameter & Argument
 
 Understanding the difference between a **parameter** and an **argument** is important when working with methods in Java.
 
 ---
 
-### 📌 Parameter:
+###  Parameter:
 A **parameter** is a variable defined in the method's signature.  
 It acts as a placeholder that will hold the value passed when the method is called.
 
 ---
 
-### 📌 Argument:
+###  Argument:
 An **argument** is the actual value you pass to the method when calling it.  
 This value is assigned to the parameter inside the method.
 
 ---
 
-### 🚨 Summary:
+###  Summary:
 
 - **Parameter**: Defined in the method declaration.
 - **Argument**: Passed during the method call.
@@ -60,13 +60,13 @@ In simple terms:
 
 ---
 
-## 🎯 Actual Argument vs Formal Argument
+##  Actual Argument vs Formal Argument
 
 In Java (and most programming languages), understanding the difference between **formal arguments** and **actual arguments** helps you better understand how methods work.
 
 ---
 
-### 📌 1. Formal Argument (Parameter)
+###  1. Formal Argument (Parameter)
 
 - A **formal argument** is the variable defined in the method's signature.
 - It acts as a placeholder that will hold the value provided when the method is called.
@@ -75,7 +75,7 @@ In Java (and most programming languages), understanding the difference between *
 
 ---
 
-### 📌 2. Actual Argument (Argument)
+###  2. Actual Argument (Argument)
 
 - An **actual argument** is the real value you pass to the method when calling it.
 - This is the data the method will actually work with.
@@ -84,7 +84,7 @@ In Java (and most programming languages), understanding the difference between *
 
 ---
 
-### ⚡ Summary Table:
+###  Summary Table:
 
 | Type             | Where It's Used            | What It Represents             |
 |------------------|----------------------------|--------------------------------|
@@ -93,7 +93,7 @@ In Java (and most programming languages), understanding the difference between *
 
 ---
 
-## 🔄 Argument Passing in Java
+##  Argument Passing in Java
 
 In Java, there are two main types of argument passing:
 
@@ -102,7 +102,7 @@ In Java, there are two main types of argument passing:
 
 ---
 
-### ✅ 1. Pass by Value
+###  1. Pass by Value
 
 **Meaning:**  
 When you pass values to a method through its parameters, only a **copy** of the original value is sent to the method. The actual value in the original variable **remains unchanged**, no matter what happens inside the method.
@@ -118,7 +118,7 @@ In *pass by value*, Java creates a new copy of the value and sends that to the m
 
 ---
 
-### 📘 What Does Pass by Reference Mean?
+###  What Does Pass by Reference Mean?
 
 **Meaning:**  
 When you pass an object to a method, the method receives the reference to the original object. This means that any changes made to the object inside the method will directly affect the **original object**, since both the method and the caller are referring to the **same memory location**.
@@ -128,7 +128,7 @@ In the case of objects, the **value** that gets passed is the **reference** (or 
 
 ---
 
-### 💡 Important Difference Table
+###  Important Difference Table
 
 | Type               | Meaning                                             | Effect on Original Value                  |
 |--------------------|-----------------------------------------------------|-------------------------------------------|
@@ -139,7 +139,7 @@ In the case of objects, the **value** that gets passed is the **reference** (or 
 
 ---
 
-### ✅ Summary
+###  Summary
 
 - **Pass by Value:** You pass a copy of the value. The original data remains unaffected.
 - **Pass by Reference (Conceptually):** You pass an object’s reference. Any modification affects the original object.

@@ -1,11 +1,11 @@
-## 📦 What are Getters and Setters?
+##  What are Getters and Setters?
 
-### 🔐 Rule of Encapsulation:
+###  Rule of Encapsulation:
 When you declare variables as **private** (so they cannot be accessed directly from outside the class), you use **getters and setters** to access and modify these variables from outside.
 
 ---
 
-### 🧠 Getter:
+###  Getter:
 A **getter** is used to **read the value** of a private variable.
 
 - It is a **public method** that **returns the value** of a private variable.
@@ -13,7 +13,7 @@ A **getter** is used to **read the value** of a private variable.
 
 ---
 
-### 🛠️ Setter:
+###  Setter:
 
 A **setter** is used to **set or update** the value of a private variable.
 

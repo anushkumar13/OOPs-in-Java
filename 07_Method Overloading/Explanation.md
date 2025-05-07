@@ -4,7 +4,7 @@
 
 ---
 
-### 📌 Meaning of Overloading:
+###  Meaning of Overloading:
 
 Overloading means you can create **multiple versions of a method or constructor** with the **same name**, as long as their **parameter list is different**.
 
@@ -12,7 +12,7 @@ Java automatically decides **which version** to call based on the **arguments pa
 
 ---
 
-### ✅ Java Decides Based On:
+###  Java Decides Based On:
 
 1. **Number of parameters**
 2. **Data types of parameters**
@@ -20,14 +20,14 @@ Java automatically decides **which version** to call based on the **arguments pa
 
 ---
 
-### 🎯 Why is Overloading Useful?
+###  Why is Overloading Useful?
 
 - You can handle **multiple situations** using the **same method or constructor name** within the same class.
 - It helps make your code **cleaner, more readable, and organized**.
 
 ---
 
-### 🧠 Example Use Case:
+###  Example Use Case:
 
 Imagine a method named `print()`:
 
@@ -39,7 +39,7 @@ All three are valid due to different parameter lists, even though the method nam
 
 ---
 
-## ✅ Benefits of Method Overloading in Java
+##  Benefits of Method Overloading in Java
 
 Method Overloading provides multiple advantages that improve the quality, readability, and efficiency of your code. Let’s explore them:
 
@@ -82,25 +82,25 @@ For example, a `print()` method can be used to print text, numbers, or even cust
 
 ---
 
-### 🔚 Conclusion:
+###  Conclusion:
 
 Method Overloading makes your code:
 
-- 📖 **Readable**
-- 🔁 **Reusable**
-- 🎯 **Flexible**
-- ⚡ **Efficient**
-- 💻 And looks **professional**
+-  **Readable**
+-  **Reusable**
+-  **Flexible**
+-  **Efficient**
+-  And looks **professional**
 
 ---
 
-## 🔁 How to Perform Method Overloading in Java?
+##  How to Perform Method Overloading in Java?
 
 Method Overloading allows you to create **multiple methods with the same name** in a class, as long as their **parameters differ**.
 
 ---
 
-### 💡 Key Rule to Remember:
+###  Key Rule to Remember:
 
 For method overloading to work in Java:
 
@@ -115,14 +115,14 @@ Java does not consider return type when distinguishing overloaded methods.
 
 ---
 
-### 🧠 Why Does This Rule Exist?
+###  Why Does This Rule Exist?
 
 Because Java uses the method **signature** (method name + parameter list) to differentiate between overloaded methods.  
 The return type is not part of the method signature — so changing only the return type causes a **compilation error**.
 
 ---
 
-## 📌 3 Ways to Achieve Method Overloading in Java
+##  3 Ways to Achieve Method Overloading in Java
 
 Method Overloading means defining **multiple methods with the same name** in a class, but with **different parameters**.
 
@@ -130,13 +130,13 @@ There are three valid ways to overload a method:
 
 ---
 
-### ✅ 1. Different Number of Parameters  
+###  1. Different Number of Parameters  
 You can create multiple versions of a method by changing how many parameters it takes.
 
-### ✅ 2. Different Types of Parameters
+###  2. Different Types of Parameters
 You can overload methods by changing the data types of parameters.
 
-### ✅ 3. Different Order of Parameters
+###  3. Different Order of Parameters
 Overloading is also possible by changing the order of parameters (if the types are different).
 
 ### Method Overloading = Same Method Name + Different Parameters
@@ -144,7 +144,7 @@ This allows you to define multiple behaviors using the same method name, dependi
 
 ---
 
-### ✅ Summary:
+###  Summary:
 
 | Criteria                       | Overloading Allowed? |
 |-------------------------------|-----------------------|
