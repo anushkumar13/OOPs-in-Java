@@ -66,7 +66,7 @@ Abstraction is the process of **hiding complex implementation** and showing only
 
 ##  Advantages of OOPs
 
-##  1. Code Reusability
+#  1. Code Reusability
 
 - Use **Inheritance** to reuse fields and methods from existing classes.
 - Avoid writing duplicate code.
