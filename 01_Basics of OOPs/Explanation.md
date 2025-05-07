@@ -20,7 +20,6 @@ This approach helps us write code that mirrors the **real world**, making it mor
 
 OOPs is built upon **four fundamental principles** that guide how we structure and use our classes and objects:
 
----
 
 ### 1️⃣ Encapsulation
 
@@ -32,7 +31,6 @@ Encapsulation means **wrapping data (attributes)** and **code (methods)** togeth
 
  Think of a **capsule** – you can see the outer cover but not the ingredients inside.
 
----
 
 ### 2️⃣ Inheritance
 
@@ -44,7 +42,6 @@ Inheritance allows one class (child class) to **inherit properties and methods**
 
  Like a **child inheriting traits** from parents.
 
----
 
 ### 3️⃣ Polymorphism
 
@@ -55,7 +52,6 @@ Polymorphism means "**many forms**". It allows the **same method name** to behav
 
  Like a person playing different roles in different situations.
 
----
 
 ### 4️⃣ Abstraction
 
@@ -75,34 +71,24 @@ Abstraction is the process of **hiding complex implementation** and showing only
 - Use **Inheritance** to reuse fields and methods from existing classes.
 - Avoid writing duplicate code.
 
----
-
 ###  2. Easy to Manage & Modify
 
 - Code is organized into objects, making it easier to **locate and update** specific features.
-
----
 
 ###  3. Data Hiding (Encapsulation)
 
 - Internal data is kept **private**
 - Can only be accessed or modified via **public methods**
 
----
-
 ###  4. Real-World Modeling
 
 - You can represent real-world things like `Car`, `Employee`, `BankAccount` using Java classes.
 - Makes the software **easier to understand** and **relatable**.
 
----
-
 ###  5. Polymorphism = Flexibility
 
 - Same method name can be used for **different tasks**
 - Makes code **cleaner**, more **dynamic**, and **maintainable**
-
----
 
 ###  6. Scalability
 

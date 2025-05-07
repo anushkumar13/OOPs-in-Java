@@ -2,19 +2,15 @@
 
 In Object-Oriented Programming (OOPs), **objects** are instances of **classes**. An object is a real-world entity represented in the software, which holds both **data** (properties) and **methods** (behaviors).
 
----
-
-## What is an Object?
-
 An object is a software version of a real-world entity, created from a class. It has:
 
-* **Properties (Attributes/Data)**: Characteristics or features of the object.
-* **Methods (Behaviors)**: Actions or operations the object can perform.
+- **Properties (Attributes/Data)**: Characteristics or features of the object.
+- **Methods (Behaviors)**: Actions or operations the object can perform.
 
 ### Real-Life Example: Car
 
-* **Properties (Data)**: color, speed, model
-* **Behavior (Methods)**: start the car, accelerate, brake
+- **Properties (Data)**: color, speed, model  
+- **Behavior (Methods)**: start the car, accelerate, brake
 
 In Java, you create objects based on a class. A **class** is like a blueprint or design, and an **object** is the actual instance created from that design.
 
@@ -36,11 +32,35 @@ The **state** of an object refers to the data or properties that describe the ob
 
 For example, if you have a **Car** object, the state could include:
 
-* `color = "red"`
-* `speed = 80`
-* `brand = "BMW"`
+- `color = "red"`
+- `speed = 80`
+- `brand = "BMW"`
 
 In Java, these properties are stored in **fields** (variables) of the class.
+
+---
+
+## 2. Behavior (Methods/Functions)
+
+The **behavior** of an object defines what the object can do or what actions it can perform. These are implemented as **methods** in the class.
+
+Continuing with the **Car** example, behaviors could include:
+
+- Starting the engine
+- Accelerating
+- Braking
+
+These methods allow the object to interact with the outside world or change its own internal state.
+
+---
+
+## 3. Identity (Unique Identifier)
+
+The **identity** of an object means that each object has a unique existence in memory, even if it holds the same data as another object.
+
+For example, you can have two car objects with the same color and model, but they are still two different objects — each has its own identity in memory.
+
+In Java, the identity of an object is typically determined by its memory address (reference), which allows Java to distinguish between different instances of the same class.
 
 ---
 

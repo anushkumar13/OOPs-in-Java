@@ -84,22 +84,6 @@ Together, these principles provide security, simplicity, and cleaner code.
 
 ---
 
-## Benefits of This Approach:
-
-### 1. **Hiding Complexity:**
-
-Only essential controls (start, stop, drive) are shown. Complex engine logic is hidden.
-
-### 2. **Controlled Access:**
-
-Direct access to internal components is restricted. You interact using well-defined public methods.
-
-### 3. **Easy Maintenance:**
-
-If internal logic changes, only the internal method is updated — the external interface remains the same.
-
----
-
 ## Final Thoughts:
 
 * **Encapsulation**: Protects the internal state and behavior by restricting direct access.

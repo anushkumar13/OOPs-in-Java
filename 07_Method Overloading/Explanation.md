@@ -43,38 +43,32 @@ All three are valid due to different parameter lists, even though the method nam
 
 Method Overloading provides multiple advantages that improve the quality, readability, and efficiency of your code. Let’s explore them:
 
----
 
 ### 1️⃣ Improved Readability  
 Using the **same method name** for similar operations makes your code easier to understand.  
 Only the parameters differ, which keeps things **simple and intuitive**.
 
----
 
 ### 2️⃣ Code Reusability  
 Instead of creating multiple methods with different names, you can reuse the same method name with different parameter types or counts.  
 This reduces **redundancy** and keeps your code **cleaner**.
 
----
 
 ### 3️⃣ Compile-time Polymorphism  
 Method overloading is a type of **compile-time polymorphism**.  
 The Java compiler determines which method to call **during compilation**, based on the method signature.  
 This improves **performance**.
 
----
 
 ### 4️⃣ Greater Flexibility  
 You can call the same method in **multiple ways**, depending on the data or arguments you pass.  
 This adds **versatility** to your application’s logic.
 
----
 
 ### 5️⃣ Easier Maintenance  
 Overloaded methods with the same name and related logic make the code **easier to maintain**.  
 Future updates become simpler because you don't have to manage multiple method names for similar functionality.
 
----
 
 ### 6️⃣ Better Handling of Real-World Scenarios  
 Method overloading is perfect for real-life use cases where similar operations need to be performed with different types or amounts of input.  
@@ -128,7 +122,6 @@ Method Overloading means defining **multiple methods with the same name** in a c
 
 There are three valid ways to overload a method:
 
----
 
 ###  1. Different Number of Parameters  
 You can create multiple versions of a method by changing how many parameters it takes.
@@ -138,6 +131,8 @@ You can overload methods by changing the data types of parameters.
 
 ###  3. Different Order of Parameters
 Overloading is also possible by changing the order of parameters (if the types are different).
+
+---
 
 ### Method Overloading = Same Method Name + Different Parameters
 This allows you to define multiple behaviors using the same method name, depending on how it’s called.

@@ -28,32 +28,6 @@ Think of a **medicine capsule**:
 
 ---
 
-##  How to Achieve Encapsulation in Java?
-
-###  3 Simple Steps:
-
-1. **Make variables private**
-   - So they can’t be accessed directly from outside the class.
-
-2. **Create public getter and setter methods**
-   - To provide **controlled access** to those private variables.
-
-3. **Wrap everything inside a class**
-   - So data and methods are together — **proper encapsulation**.
-
----
-
-## Benefits of Encapsulation
- Data Security: Sensitive data is protected from unauthorized access.
-
- Control: You can control how your variables are accessed or updated.
-
- Cleaner Code: Promotes modular, readable, and maintainable code.
-
- Avoid Invalid Data: Add validation in setters to prevent wrong data.
-
----
-
 ## Steps to Achieve Encapsulation in Java
 
 ### 1. Make data members private:
@@ -97,9 +71,7 @@ If in the future, the bank wants to change how the interest is calculated or how
 
 In this way, **encapsulation** keeps your bank account safe and easy to manage, while allowing you to perform specific actions without direct access to sensitive data.
 
----
-
-## What is the Benefit of Encapsulation?
+## Benefits of Encapsulation in this Example?
 
 ### 1. Data Security:
 Your `accountNumber` and `balance` are not directly exposed. They can only be accessed through methods.
