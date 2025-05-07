@@ -1,4 +1,4 @@
-## 🧠 What is an Argument in Java?
+##  What is an Argument in Java?
 
 The concept of an **argument** is very simple — just imagine it as a value you pass to a method so that it can perform its task.
 

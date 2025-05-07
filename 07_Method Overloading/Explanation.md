@@ -1,4 +1,4 @@
-## 🔁 What is Overloading in Java?
+##  What is Overloading in Java?
 
 **Overloading** is a feature of **Polymorphism** in Java where you can define **multiple methods or constructors with the same name** but with **different parameters**.
 
