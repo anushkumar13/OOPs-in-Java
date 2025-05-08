@@ -46,7 +46,6 @@ The class that inherits is called the **child class** (or subclass), and the cla
    Hybrid inheritance is a combination of two or more types of inheritance.  
    Although Java does not support multiple inheritance with classes, hybrid inheritance can still be implemented using interfaces.
 
----
 
 ### 🔹 Summary
 
@@ -125,7 +124,6 @@ The `super` keyword helps in accessing:
 - The parent class overridden methods.
 - The parent class variables (when they are shadowed by child class variables).
 
----
 
 ## 🔹 When is `super` Used?
 
@@ -147,7 +145,6 @@ When the child class defines a variable with the same name as a variable in the 
 
 To access the parent class's version of the variable in such cases, the `super` keyword is used.
 
----
 
 ## 🔹 Using `super()` Constructor Call
 
@@ -157,7 +154,6 @@ If the parent class has a parameterized constructor, the child class must use `s
 
 This ensures that the parent class's state is initialized before the child class's logic executes.
 
----
 
 ## 🔹 Using `super` to Call Parent Class Method
 
@@ -165,7 +161,6 @@ If a method is overridden in the child class, and the child class wants to execu
 
 This helps in situations where the child class wants to add extra behavior to the method, but still reuse the original logic of the parent class.
 
----
 
 ## 🔹 Using `super` to Access Parent Class Variables
 
@@ -175,7 +170,6 @@ To access the parent class version of that variable, the child class must use `s
 
 This is particularly useful in cases of variable shadowing.
 
----
 
 ## 🔹 Important Points about `super`
 
@@ -185,7 +179,6 @@ This is particularly useful in cases of variable shadowing.
 
 - When a variable in the child class has the same name as in the parent class, `super.variableName` helps access the parent’s version.
 
----
 
 ## 🔹 `super` and Constructor Chaining
 
@@ -194,8 +187,6 @@ Constructor chaining refers to the process where one constructor calls another c
 In Java, `super()` is used for constructor chaining between a child class and its parent class.
 
 This ensures that the parent class is properly initialized before the child class constructor runs. It forms a chain where each constructor calls its immediate parent's constructor until the top of the hierarchy is reached.
-
----
 
 ## 🔹 Summary
 
@@ -215,13 +206,11 @@ Method Overriding in Java occurs when a child class provides its own version of 
 
 This is useful when we want the child class to define a behavior that is different from or more specific than what is provided in the parent class.
 
----
 
 ##  Real-Life Analogy
 
 Imagine a generic class `Animal` that has a method `makeSound()`. Now, if a `Dog` class extends `Animal` and redefines the `makeSound()` method with its own implementation, it is said to override the method. This allows the dog object to make its own unique sound while still being an animal.
 
----
 
 ##  Rules of Method Overriding
 
@@ -235,7 +224,6 @@ Imagine a generic class `Animal` that has a method `makeSound()`. Now, if a `Dog
   - More accessible (e.g., `protected` → `public` is allowed, but `protected` → `private` is not).
 - Only a **child class** can override a method of its parent class.
 
----
 
 ##  Important Terms
 
@@ -245,7 +233,6 @@ Imagine a generic class `Animal` that has a method `makeSound()`. Now, if a `Dog
 | Parent Method    | The method that is originally declared in the base (super) class.       |
 | Child Method     | The method that overrides the parent method in the derived (sub) class. |
 
----
 
 ##  Why Use Method Overriding?
 
@@ -253,7 +240,6 @@ Imagine a generic class `Animal` that has a method `makeSound()`. Now, if a `Dog
 - To **customize or extend** the behavior of a method defined in the parent class.
 - To allow the **child class to provide specific implementation** of a method that is general in the parent class.
 
----
 
 ##  Dynamic Method Dispatch
 
@@ -263,7 +249,6 @@ If a parent class reference holds a child class object, and the overridden metho
 
 This is how Java achieves **runtime polymorphism**.
 
----
 
 ## ❌ When Overriding is Not Allowed
 
@@ -273,7 +258,6 @@ This is how Java achieves **runtime polymorphism**.
 | Static Method     | `Static` methods belong to the class, not the instance, so they are not overridden but hidden (method hiding). |
 | Private Method    | A `private` method is not accessible outside its class, so it cannot be overridden. |
 
----
 
 ##  Best Practices for Method Overriding
 
@@ -282,7 +266,6 @@ This is how Java achieves **runtime polymorphism**.
 - Always respect access control rules: ensure the child class method is not more restrictive than the parent.
 - Avoid overriding methods unless customization is necessary to prevent complexity or confusion.
 
----
 
 ##  Summary
 
@@ -299,7 +282,6 @@ This is how Java achieves **runtime polymorphism**.
 
 This guide explains the **key differences** between Method Overloading and Method Overriding in Java, using a comprehensive feature-wise comparison.
 
----
 
 ##  Feature-wise Comparison
 
@@ -317,7 +299,6 @@ This guide explains the **key differences** between Method Overloading and Metho
 |  Final/Static Methods?| Final and static methods can be overloaded                               | Final and static methods cannot be overridden                                         |
 |  Use Case           | Used when performing similar operations in different ways (e.g., different input types) | Used when the child class needs to provide a different behavior than the parent       |
 
----
 
 ##  Real-Life Analogy
 
@@ -325,7 +306,6 @@ This guide explains the **key differences** between Method Overloading and Metho
 Imagine a person responsible for printing things. If they receive a number, they print the number. If they receive a string, they print the string. If they receive an object, they print its details.  
 The **task is the same** (printing), but the **input types are different** – this is Method Overloading.
 
----
 
 ###  Method Overriding:
 Imagine a general class `Vehicle` that has a method `run()`.  
@@ -333,7 +313,6 @@ Now, subclasses like `Car` and `Bike` create their **own version** of the `run()
 When `Bike.run()` is called, the **bike-specific behavior** executes.  
 This is Method Overriding – same method name, redefined in the child class.
 
----
 
 ##  One-Liner Summary
 
