@@ -122,9 +122,9 @@ Using `Outer.this`, you can clearly refer to a member of the outer class.
 
 
 ### Real-life Analogy:
-Imagine you're coding with 5 friends, all named **Anush**. If you say, "Anush, print it!", everyone gets confused. 😵
+Imagine you're coding with 5 friends, all named **Anush**. If you say, "Anush, print it!", everyone gets confused. 
 
-But if you say, "I — this Anush, print it!", everyone knows exactly which **Anush** you are referring to. 😄
+But if you say, "I — this Anush, print it!", everyone knows exactly which **Anush** you are referring to. 
 
 This is exactly what the `this` keyword does in Java — it clears all the confusion!
 
