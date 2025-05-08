@@ -304,7 +304,6 @@ A **static block** is a special block of code that gets executed automatically b
 
 In Java, the **first use of a class** refers to the point at which the class is loaded or its object is created for the first time. When a class's method or constructor is called for the first time, or when its object is created for the first time, we say the class is being used for the first time.
 
----
 
 ### Class Loading Process:
 
@@ -314,7 +313,6 @@ In Java, the **first use of a class** refers to the point at which the class is 
 2. **First Use**:
    - The **first use** of the class occurs when its object is created or when one of its static members (variables or methods) is accessed for the first time.
 
----
 
 ### When Does the First Use of a Class Occur?
 
