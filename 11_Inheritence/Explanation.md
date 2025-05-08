@@ -1,4 +1,4 @@
-## 💡 What is Inheritance?
+##  What is Inheritance?
 
 Inheritance is the concept where one class shares its properties (variables) and behaviors (methods) with another class. In simple terms, a class can "inherit" from another class, meaning it can acquire the properties and methods of the parent class.
 
@@ -303,7 +303,7 @@ This guide explains the **key differences** between Method Overloading and Metho
 
 ##  Feature-wise Comparison
 
-| Feature                 | ✅ Method Overloading                                                     | 🔁 Method Overriding                                                                  |
+| Feature                 |  Method Overloading                                                     |  Method Overriding                                                                  |
 |-------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------|
 |  Definition           | Having the same method name with different parameters in the same class | Redefining a parent class method in the child class with the same name and parameters |
 |  Concept Type         | Compile-time Polymorphism                                                 | Runtime Polymorphism                                                                  |
