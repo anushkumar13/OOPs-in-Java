@@ -53,14 +53,14 @@ This repo is written in a style that beginners can easily follow and learn from.
 
 ---
 
-## 🤝 Contributions Welcome!
+##  Contributions Welcome!
 
 If you'd like to contribute:
 - Add new examples
 - Improve explanations
 - Fix typos or formatting
 
-Feel free to fork this repo and open a pull request! ✨
+Feel free to fork this repo and open a pull request! 
 
 ---
 
@@ -72,4 +72,4 @@ If you have any questions, feedback, or collaboration ideas:
 
 ---
 
-### ⭐ If you found this useful, don't forget to give it a star!
+###  If you found this useful, don't forget to give it a ⭐ star!
