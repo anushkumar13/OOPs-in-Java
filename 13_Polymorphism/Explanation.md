@@ -28,7 +28,7 @@ That is exactly what **polymorphism** is in Java!
 
 ---
 
-## ⚙️ Types of Polymorphism in Java
+##  Types of Polymorphism in Java
 
 | Type         | Description        |
 | ------------ | ------------------ |
@@ -168,7 +168,7 @@ Static Binding is **faster** because:
 * There’s **no dynamic dispatch** or runtime lookup, which saves performance
 
 
-## 🔹 Summary Table: Static Binding
+##  Summary Table: Static Binding
 
 | Feature                 | Static Binding                             |
 | ----------------------- | ------------------------------------------ |
@@ -282,7 +282,7 @@ Dynamic Binding plays a key role in achieving **runtime polymorphism**, allowing
 
 # Run-Time Polymorphism in Java
 
-## 🔷 What is Run-Time Polymorphism?
+##  What is Run-Time Polymorphism?
 
 Run-time polymorphism in Java means that the decision of which method to call is taken by the JVM at **run-time**, based on the **actual object type**, not the reference type.
 
