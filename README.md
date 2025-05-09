@@ -19,8 +19,12 @@ Each topic is explained in simple English, with clearly commented Java code to h
 9. [Static Keyword](./09_Static_Keyword/Explanation.md)
 10. [This Keyword](./10_This_Keyword/Explanation.md)
 11. [Inheritence](./11_Inheritence/Explanation.md)
-12. [" Final Keyword "](./07_Final_Keyword/Explanation.md)
-13. [" "](./07_Interface/InterfaceExplanation.md)
+12. [Final Keyword](./12_Final_Keyword/Explanation.md)
+13. [Polymorphism](./13_Polymorphism/Explanation.md)
+14. [](./14_/Explanation.md)
+15. [](./15_/Explanation.md)
+16. [](./16_/Explanation.md)
+
 
 
 ---
