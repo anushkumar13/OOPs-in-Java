@@ -22,10 +22,7 @@ Each topic is explained in simple English, with clearly commented Java code to h
 12. [Final Keyword](./12_Final_Keyword/Explanation.md)
 13. [Polymorphism](./13_Polymorphism/Explanation.md)
 14. [Abstract and Interface](./14_Abstract_and_Interface/Explanation.md)
-15. [](./15_/Explanation.md)
-16. [](./16_/Explanation.md)
-
-
+15. [Association](./15_Association/Explanation.md)
 
 ---
 
